@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.carousel, .slide,
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .carousel-item img,
+.carousel .carousel-control {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel .carousel-inner
+{
+    border-style: solid;
+    border-color: gray;
+}
+
+#display-picture
+{
+    border-style: solid;
+    border-color: gray;
+    height: 100%px;
+    width: 600px;
+}
+
+#popup-image
+{
+    width:100%;
+}
+
+#demowrap .lidiWrap {
+      width: 100%;
+      box-sizing: border-box;
+}
+
+#report-alerts
+{
+    display: none;
+}

@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.navbar
+{
+    background-color: black;
+}
+
+body { 
+    padding-top: 65px; 
+}
+
+/*.bg-banner
+{
+    height: 18em;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.banner-image 
+{
+   background-image: url("/images/banner.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   width:100%;
+   opacity: 1;
+}*/
+
+.bg-banner
+{
+    background-image: url("http://192.168.211.128/project/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    height: 18em;*/
+}
+
+.banner-overlay
+{
+    padding-top: 7em;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+/*    height: 18em;*/
+}
+
+body {
+    background-color:black;
+    color:white;
+}
+
+.card-body
+{
+    background-color:white;
+    color:black;
+}
+
+#main-body{
+    background-color:black;
+    color:white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main-body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main-body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+section h2
+{
+   text-decoration: underline;
+}
+
+.navbar-img
+{
+    margin: 5px;
+    width:2em;
+    height:2em;
+    border-radius: 50%;
+}
+
+.logout-icon, .login-icon, .register
+{
+    font-size: 1.5em;
+    margin: 0 5px 0 5px;
+}
+
+/*
+.container-figure{
+    width:fit-content;
+}*/
+/*
+Another way to implement for text to be align to image*/
+article figure 
+{
+    display:inline-block;
+}
+
+.image-thumbnail
+{
+    border: 1px solid;
+    border-color: black;
+    outline: 1px solid black;
+    outline-offset: 3px;   
+}
+
+section figure figcaption
+{
+    padding-top:0.5em;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+}
+
+.img-popup 
+{
+    position: absolute;
+    z-index:999;
+    border: solid 0.2rem black;
+    outline: solid 0.5rem grey;
+    height: 90%;
+    width: auto;
+    top:30px;
+    left: 150px;
+}
+
+footer
+{
+    text-align: center;
+    border-top:solid;
+    border-color: grey;
+    padding: 1em 0em;
+    font-style:italic;
+    font-size: small;
+}
+
+register_reult, #login_display
+{
+    margin: 5% 10% 0% 10%;
+    padding: 1% 2% 1% 2%;
+    border-top:solid;
+    border-color: lightgrey;
+    
+}
+
+.spinner-display
+{
+    width:3em;
+    height:3em;
+    margin:10% 0% 5% 0%;
+}
+
+#logout_display
+{
+    text-align: center;
+    font-style:  italic;
+}
+
+.testing-container
+{
+    height: 2000px;
+}
